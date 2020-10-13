@@ -29,7 +29,7 @@ This dataset contains data from NBA games between October 2003 - March 2020 and 
 * Home/Away Team Free Throw %
 
 ## Data Cleaning
-Once the data was collected from Kaggle and the All-Star data was scraped from RealGm, the data needed to be cleaned prior to being used in the models. I made the following changes:
+Once the data was collected from Kaggle and the All-Star data was scraped from RealGM, the data needed to be cleaned prior to being used in the models. I made the following changes:
 
 * Changed the team names of some of the NBA All-Stars as the team names changed in real life such as the New Jersey Nets being renamed the Brooklyn Nets  
 * Removed the rows without game data.
@@ -65,7 +65,7 @@ Below is a graphic of the importance of each feature which found using Random Fo
 ## Model performance
 
 The Support Vector Machine model slightly outperformed the other two models with a higher Model Score and F1 Score.
-The Logistic Regression Model and Support Vector Model had the same Recall Score and the Random Forest Model had the highest Precision Score.
+The Logistic Regression Model and Support Vector Machine Model had the same Recall Score and the Random Forest Model had the highest Precision Score.
 
 However, the performance of the 3 models were extremely similar as evident in the figures below.
 
