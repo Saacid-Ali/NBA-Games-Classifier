@@ -70,6 +70,6 @@ The Logistic Regression Model and Support Vector Model had the same Recall Score
 However, the performance of the 3 models were extremely similar as evident in the figures below.
 
 ![alt text](https://github.com/Saacid-Ali/NBA-Games-Classifier/blob/master/Peformance_Evaluation.png)
-![alt text](https://github.com/Saacid-Ali/NBA-Games-Classifier/blob/master/Peformance_Evaluation.png)
-![alt text](https://github.com/Saacid-Ali/NBA-Games-Classifier/blob/master/Peformance_Evaluation.png)
+![alt text](https://github.com/Saacid-Ali/NBA-Games-Classifier/blob/master/Model_scores.png)
+![alt text](https://github.com/Saacid-Ali/NBA-Games-Classifier/blob/master/Performance_metrics.png)
 
