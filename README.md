@@ -46,4 +46,30 @@ I looked at the distributions of the data and the value counts for the various c
 
 ## Model Building 
 
+Firstly, I dropped some variables from the training data which included Home/Away team points, Season and the Home_Team_Wins variable. The test data only included the Home_Team_Wins variable as this is what I aimed to predict. 
+
+Furthermore, I split the data into train and tests sets with a test size of 20%.   
+
+I tried three different models and evaluated them using different metrics such as Model Score, Recall Score, Precision Score and F1 Score. I also illustrate the performance of each model with a confusion matrix. I chose these different metrics because simply choosing one metric to evaluate the performance of these models does not paint the full picture of how well each model performed.
+
+I tried three different models:
+*	**Logistic Regression** 
+*	**Random Forest** 
+*	**Support Vector Machine**  
+
+Below is a graphic of the importance of each feature which found using Random Forest.
+
+![alt text](https://github.com/Saacid-Ali/NBA-Games-Classifier/blob/master/Feature_importance.png)
+
+
 ## Model performance
+
+The Support Vector Machine model slightly outperformed the other two models with a higher Model Score and F1 Score.
+The Logistic Regression Model and Support Vector Model had the same Recall Score and the Random Forest Model had the highest Precision Score.
+
+However, the performance of the 3 models were extremely similar as evident in the figures below.
+
+![alt text](https://github.com/Saacid-Ali/NBA-Games-Classifier/blob/master/Peformance_Evaluation.png)
+![alt text](https://github.com/Saacid-Ali/NBA-Games-Classifier/blob/master/Peformance_Evaluation.png)
+![alt text](https://github.com/Saacid-Ali/NBA-Games-Classifier/blob/master/Peformance_Evaluation.png)
+
