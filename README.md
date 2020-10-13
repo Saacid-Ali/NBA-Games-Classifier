@@ -9,6 +9,7 @@
 **Data Collection Source:** https://www.kaggle.com/nathanlauga/nba-games     
 **Scrapped Website:** https://basketball.realgm.com/nba/allstar/game/rosters    
 **Scraper Article Tutorial:** https://www.freecodecamp.org/news/how-to-scrape-websites-with-python-and-beautifulsoup-5946935d93fe/  
+**View Code Files In Interactive Mode:** https://nbviewer.jupyter.org/
 
 ## Web Scraping
 Created a web scraper to scrap RealGM - Basketball for their NBA All-Star data which included:
