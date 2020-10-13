@@ -37,6 +37,12 @@ Once the data was collected from Kaggle and the All-Star data was scraped from R
 * Changed the Home/Away Team IDs to the team names using the data from 'teams.csv'.
 
 ## EDA and Data Analysis
+I looked at the distributions of the data and the value counts for the various categorical variables and also analysed the data to identify key trend. Below are a few highlights.
+
+![alt text](https://github.com/Saacid-Ali/NBA-Games-Classifier/blob/master/Boxplot_1.png)
+![alt text](https://github.com/Saacid-Ali/NBA-Games-Classifier/blob/master/Boxplot_2.png)
+![alt text](https://github.com/Saacid-Ali/NBA-Games-Classifier/blob/master/All_Star_Distribution.png)
+![alt text](https://github.com/Saacid-Ali/NBA-Games-Classifier/blob/master/Win_percentage_by_All-Stars.png)
 
 ## Model Building 
 
