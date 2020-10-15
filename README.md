@@ -32,7 +32,7 @@ This dataset contains data from NBA games between October 2003 - March 2020 and 
 ## Data Cleaning
 Once the data was collected from Kaggle and the All-Star data was scraped from RealGM, the data needed to be cleaned prior to being used in the models. I made the following changes:
 
-* Changed the team names of some of the NBA All-Stars as the team names changed in real life such as the New Jersey Nets being renamed the Brooklyn Nets  
+* Changed the team names of some of the NBA All-Stars as the team names changed in real life such as the New Jersey Nets being renamed the Brooklyn Nets.  
 * Removed the rows without game data.
 * Added a Home Team and Away Team All-Stars columns to the 'games.csv' dataset which is the total number of All-Stars playing for the teams in that game.
 * Changed the Home/Away Team IDs to the team names using the data from 'teams.csv'.
